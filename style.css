@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 30px;
+
+    background-color: rgb(233, 227, 227);
+}
+.navbar{
+    display: flex;
+    
+    width: 100%;
+    height: 70px;
+    
+    background-color: white;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    margin-top: 40px;
+    
+    display: inline-block;
+    
+}
+nav ul li a{
+    color: black;
+    padding: 14px;
+}
+
+.logo{
+    padding: 0px;
+   
+    margin-left: 120px;
+}
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: auto;
+    align-items: center;
+    height: auto;
+    padding: 50px;
+    text-align: justify;
+    background-color: white;
+    
+}
+.hero-section  h1, article, a{
+    margin-top: 30px;  
+    
+}
+.hero-grid{
+    flex-basis: 50%;
+    line-height: 40px;
+    
+}
+.hero-grid-two{
+    flex-basis: 50%;
+}
+
+.active{
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: green;
+    padding: 10px 20px 10px 20px;
+}
+
+.cart{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.active a{
+    color: white;
+}
+.nav{
+    display: flex;
+}
+.hero-link{
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding: 12px;
+    
+    padding-right: 70px;
+    border-radius: 15px;
+    background-color: green;
+}
+.hero-grid-two img{
+    width: 100%;
+}
+
+/*---MENU---*/
+
+
+.sec-section{
+    background-color: rgb(228, 235, 227);
+    width: auto;
+    height: auto;
+}
+.menu-text{
+    text-align: center;
+    padding: 30px;
+    line-height: 35px;
+}
+.menu-section{
+    display: grid;
+    margin: 40px;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.menu-img{
+    width: 51px;
+    height: 50px;
+}
+.menu-list, .menu-listt{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    gap: 10px;
+    line-height: 40px;
+    box-shadow: 
+    -10px -7px 13px  rgba(255, 255, 255, 0.5),
+    10px 17px 14px rgba(70,70,70,0.12);
+      
+}
+.menu-list img{
+    border-radius: 50%;
+    width: 60%;
+    height: 40%;
+}
+.add2c{
+    color: white;
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    background-color: green;
+    margin-top: 50px;
+}
+.menu-list h4{
+    color: red;
+    font-weight: bold;
+}
+.menu-list h5{
+    font-weight: 20;
+}
+.menu-listt h3{
+    margin-bottom: 30px;
+}
+
+
+/*----Testimonial---*/
+
+
+.second-section{
+    background-color: white;
+    width: auto;
+    height: auto;
+    
+    align-items: center;
+    justify-content: center;
+}
+.test-container{
+    background-color: green;
+    width: 500px;
+    height: auto;
+    
+    padding: 50px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+}
+.testimg{
+    width: 20%;
+    border-radius: 90%;
+    margin-left: -590px;
+    margin-top: 50px;
+}
+.test-container h3{
+    margin-bottom: 30px;
+}
+.five-star{
+    width: 40px;
+    margin-right: -500px;
+    margin-bottom: 40px;
+    
+}
+
+/*----form---*/
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 250px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 20px auto;
+    
+}
+.submit{
+    background-color: green;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    
+    
+    padding: 10px 60px 30px 30px;
+    
+    
+
+    
+}
+
+.form input{
+    display: block;
+    height: 30px;
+    margin-bottom: 6px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    color: rgb(15, 15, 15);
+    background-color: rgb(248, 246, 246);
+}
+.message{
+    padding-bottom: 93px;
+}
+.form h1, p, a{
+    text-align: center;
+    line-height: 30px;
+}
+
+/*----Footer---*/
+
+
+
+.footer-sub{
+    width: auto;
+    height: 20px;
+    padding: 10px 60px 12px 50px;
+    background-color: rgb(219, 78, 101);
+    color: white;
+    font-weight: bold;
+    
+    text-align: center;
+}
+.footer input{
+    padding: 10px 190px 10px 30px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.nav-one ul li{
+    margin-top: 130px;
+    padding: 20px;
+}
+.nav-one ul li a, .footer p{
+    color: white;
+}
+.footer-left{
+    flex-basis: 70%;
+    line-height: 42px;
+    text-align: flex-start;
+}
+.footer-right{
+    display: block;
+    flex-basis: 40%;
+    line-height: none;
+    padding: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-one{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    background-color: green;
+    padding: 30px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    
+}
+
+@media only screen and (max-width: 726px){
+    .hero-grid{
+        margin-top: 70px;
+    }
+    
+}
+@media only screen and (max-width: 802px){
+    .logo{
+        margin: 0 auto;
+        
+    }
+    .form{
+        display: block;
+        width: auto;
+        padding: 50px;
+        height: auto;
+        
+        justify-content: center;
+        text-align: center;
+    }
+    input{
+        margin: auto;
+        padding: 0 50px 0 50px;
+    }
+    .submit{
+        text-align: center;
+        padding-right: 30px;
+        padding-bottom: 12px;
+    }
+    .nav-one{
+        margin-left: 80px;
+    }
+    
+    .navbar{
+        display: flex;
+        width: auto;
+        
+        height: 400px;
+        justify-content: center;
+        align-content: center;
+        background-color: honeydew;
+
+    }
+    .nav{
+        display: flex;
+        margin: 70px 140px 30px 0;
+        font-size: 13px;
+        padding: none;
+        line-height: 1px;
+
+    }
+    .nav ul li{
+        flex: 1;
+        
+    }
+    /*  .hero-section{
+        display: block;
+        width: auto;
+        
+        text-align: justify;
+        justify-content: center;
+        height: auto;
+        margin-top: -300px;
+    }
+    .hero-section h1, p, a{
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: justify;
+    }
+    .hero-grid{
+        width: auto;
+        padding: 30px;
+    }
+    .hero-section p, a{
+        margin-top: 40px;
+    }
+    .hero-grid img{
+        width: 100%;
+        margin-top: -40px;
+        
+    } */
+    
+    .menu-text{
+        font-size: 13px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .menu-text h5{
+        margin: 0 auto;
+    }
+    .menu-section{
+        display: block;
+        max-width: 800px;
+        
+    }
+    .cart{
+        display: none;
+    }
+    .menu-list{
+        align-items: center;
+        justify-content: center;
+        line-height: 50px;
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .menu-list h3, a{
+        margin: 0 auto;
+    }
+    .menu-list h4{
+        margin: 0 auto;
+        color: red;
+    }
+    .menu-listt{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .menu-listt h4{
+        width: auto;
+    }
+    .test-container{
+        margin: 20px auto;
+        width: auto;
+    }
+    .test-container img{
+        margin-top: 0;
+        width: 60px;
+    }
+    .form{
+        margin: 20px auto;
+    }
+    
+    
+}
+@media only screen and (max-width: 967px){
+    .hero-section{
+        margin-top: -300px;
+    }
+    .navbar{
+        display: flex;
+        width: auto;
+        
+        height: 400px;
+        justify-content: space-around;
+        
+        background-color: white;
+
+    }
+    .nav ul li{
+        
+        text-align: center;
+    }
+    .nav ul li a{
+        flex-basis: 100%;
+        justify-content: space-around;
+    }
+    .hero-grid, .hero-grid-two{
+        flex-basis: 100%;
+    }
+    /* .hero-section{
+        display: block;
+        width: auto;
+        
+        text-align: justify;
+        justify-content: center;
+        height: auto;
+        margin-top: -300px;
+    }
+    .hero-section h1, p, a{
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: justify;
+    }
+    .hero-grid{
+        width: auto;
+        padding: 30px;
+    }
+    .hero-section p, a{
+        margin-top: 40px;
+    }
+    .hero-grid img{
+        width: 100%;
+        margin-top: -40px;
+        
+    } */
+    .menu-text{
+        font-size: 13px;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .menu-text h5{
+        margin: 0 auto;
+    }
+    .menu-section{
+        display: block;
+        max-width: 800px;
+        
+    }
+    .cart{
+        display: none;
+    }
+    .menu-list{
+        align-items: center;
+        justify-content: center;
+        line-height: 50px;
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .test-container p{
+        margin-bottom: 130px;
+    }
+    .test-container{
+        height: auto;
+    }
+    .second-section{
+        margin-bottom: 40px;
+    }
+    .menu-list h3, a{
+        margin: 0 auto;
+    }
+    .menu-list h4{
+        margin: 0 auto;
+        color: red;
+    }
+    .menu-listt{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .menu-listt h4{
+        width: auto;
+    }
+    .test-container{
+        margin: 20px auto;
+        width: auto;
+    }
+    .test-container img{
+        margin-top: 0;
+        width: 60px;
+    }
+    
+    .footer{
+        text-align: center;
+        
+    }
+    .footer-left, .footer-right{
+        flex-basis: 100%;
+    }
+    
+}
+@media only screen and (max-width: 405px){
+    .hero-link{
+        padding: 10px;
+        font-size: 13px;
+        width: 10px;
+    }
+    
+    .menu-list{
+        font-size: 14px;
+    }
+    
+    
+    .testimg{
+        display: none;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 322px){
+    .logo{
+        margin: 40px 130px 0;
+    }
+    .hero-section, .menu-section{
+        width: auto;
+    }
+    .form{
+        width: auto;
+    }
+    .five-star{
+        margin: auto;
+    }
+    .add2c{
+        width: auto;
+        padding: 5px;
+    }
+    .test-container{
+        font-size: 13px;
+    }
+    
+    .test-container{
+        font-size: 10px;
+    }
+    .nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 345px){
+    form input{
+        max-width: 100px;
+    }
+    .nav{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 272px){
+    
+    .menu-list, .menu-listt{
+        width: auto;
+    }
+    .test-container{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .nav{
+        display: none;
+    }
+    .add2c{
+        font-size: 10px;
+    }
+    
+}
+@media only screen and (max-width: 240px){
+    .form{
+        display: none;
+    }
+    .test-container{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    /* .footer-flex{
+        width: auto;
+        line-height: 16px;
+        margin: 20px -0px 0 -20px;
+    } */
+    .menu-section{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+    }
+} 
+    
+
+
+@media only screen and (max-width: 475px){
+    .footer-left input{
+        padding: 10px 10px 10px 10px;
+    }
+    .nav ul li a{
+        color: white;
+    }
+}
+@media only screen and (max-width: 426px){
+    .nav ul li{
+        padding: 5px;
+        width: auto;
+        height: 49px;
+        background-color: green;
+        letter-spacing: 5px;
+        
+    }
+    .nav ul{
+        display: flex;
+        width: auto;
+        padding: 10px;
+        margin-left: -140px;
+        font-size: 10px;
+    }
+    .active{
+        display: none;
+    }
+    .hero-grid{
+        margin-top: 30px;
+    }
+    .logo{
+        margin-left: 50%;
+    }
+}
